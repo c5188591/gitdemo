@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-bindingSyntax="complex"
+			data-sap-ui-resourceroots='{
+				"anubhav": "./" 
+			}'></script>
+			
+	<script>
+		
+/* 		var oBtn = new sap.m.Button({
+			text: "Click me",
+			press: function(){
+				alert('welcome to ui5');	
+			}
+		}); */
+		var oView = new sap.ui.view({
+			viewName: "anubhav.view.App",
+			type: "XML"
+		});
+		
+		var oMain = new sap.ui.view({
+			viewName: "anubhav.view.Main",
+			type: "XML"
+		});
+		
+		oView.byId("idApp").addPage(oMain);
+		
+		oView.placeAt("content");
+		
+	</script>
+</head>
+<body class="sapUiBody">
+	<div id="content"></div>
+</body>
+</html>
