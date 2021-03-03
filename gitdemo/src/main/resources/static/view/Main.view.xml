@@ -1,7 +1,7 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table"
 	xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core"
 	controllerName="anubhav.controller.Main">
-	<Page title="Welcome to My App">
+	<Page title="AnubhavTrainings.com">
 		<Button text="loadData" press="onLoadData"></Button>
 		
 		<f:SimpleForm id="SimpleFormChange354"
